@@ -3,7 +3,7 @@ About google-cloud-storage-transfer-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-storage-transfer-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/googleapis/python-storage-transfer
+Home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-storage-transfer
 
 Package license: Apache-2.0
 

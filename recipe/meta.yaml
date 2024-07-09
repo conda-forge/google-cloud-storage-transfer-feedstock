@@ -1,5 +1,5 @@
 {% set name = "google-cloud-storage-transfer" %}
-{% set version = "1.11.3" %}
+{% set version = "1.11.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-storage-transfer-{{ version }}.tar.gz
-  sha256: c4564749492f41957f44c41b76f61f72c12b519424b841895bfe2d932c6f1490
+  sha256: bea1199590c2401a549a70eb5dc19da37cb36693ec36ffb4611c10246d09f546
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
     - google-api-core-grpc
     - google-auth >=2.14.1,<3.0.0dev,!=2.24.0,!=2.25.0
     - proto-plus >=1.22.3,<2.0.0dev
-    - protobuf >=3.19.5,<5.0.0dev,!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
+    - protobuf >=3.20.2,<6.0.0dev,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
 
 test:
   imports:

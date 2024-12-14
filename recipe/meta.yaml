@@ -1,5 +1,5 @@
 {% set name = "google-cloud-storage-transfer" %}
-{% set version = "1.13.1" %}
+{% set version = "1.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: e46c55b5f74bcef2bddcbf419eaeda9db6e8978cc0b2694d757385e6dc31c37b
+  sha256: bd3cfbb4a5523fed85979e3d49aa7878b5ef55447bba240225640174a9b671ae
 
 build:
   noarch: python

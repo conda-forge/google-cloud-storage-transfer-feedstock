@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-storage-transfer
-  version: 1.18.0
+  version: "1.19.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_storage_transfer-${{ version }}.tar.gz
-  sha256: 32f2adc67e3006958e33023beea2faee097cf6514276e4f9968f9ef5320d6b7a
+  sha256: c1eee2ee3471bfe51ecb80947c07ac461b76ce246007ca4420b67c259f4092a0
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
